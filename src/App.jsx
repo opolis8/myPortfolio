@@ -29,6 +29,7 @@ function App() {
           pb={5}
           backgroundColor={"#1a202c"}
           color={"white"}
+          scroll
         >
           <Navbar />
 
