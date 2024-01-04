@@ -93,10 +93,9 @@ const MySkill = () => {
             ABOUT
           </Text>
           <Text fontSize={"1.2rem"}>
-            I'm a passionate WEB Developer , I've worked on a variety of
-            projects in the retail, Social-media, e-commerce. I'm passionate
-            about creating great user experiences and have a strong
-            understanding of usability and accessibility standards.
+            I'm a self taught web developer with hands-on experience in retail,
+            social media and e-commerce projects. I thrive on turning ideas into
+            sleek and functional websites.
           </Text>
         </Box>
 
