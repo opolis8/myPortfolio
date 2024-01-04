@@ -5,6 +5,7 @@
 
 ::-webkit-scrollbar {
   width: 0.5rem;
+  background-color: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
