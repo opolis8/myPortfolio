@@ -2,3 +2,11 @@
 * {
   font-family: Space Mono, monospace;
 }
+#root {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+#root::-webkit-scrollbar {
+  display: none;
+}
