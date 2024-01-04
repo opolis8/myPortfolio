@@ -1,12 +1,4 @@
-import {
-  Box,
-  Button,
-  Flex,
-  Image,
-  Text,
-  Tooltip,
-  keyframes,
-} from "@chakra-ui/react";
+import { Box, Button, Flex, Image, Text, Tooltip } from "@chakra-ui/react";
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "../assets/dist/aos.css";
@@ -15,6 +7,7 @@ import { TypeAnimation } from "react-type-animation";
 animation;
 import Resume from "../assets/dist/Resume/My_Resume.pdf";
 import { RxDownload } from "react-icons/rx";
+import myProfile from "/kim.jpg";
 const HomePage = () => {
   const myAnimation = `${animation} infinite 10s`;
   useEffect(() => {
@@ -82,7 +75,7 @@ const HomePage = () => {
             border={"1px solid white"}
           >
             <Image
-              src="/kim.jpg"
+              src={myProfile}
               w={"15rem"}
               h={"15rem"}
               opacity={0.8}

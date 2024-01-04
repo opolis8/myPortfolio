@@ -13,49 +13,56 @@ import "../../assets/dist/aos.css";
 import React, { useEffect } from "react";
 import { skillAnimation } from "../Animation";
 import { anotherAnimation } from "../Animation";
+import htmlImage from "/Html.svg";
+import cssLogo from "/CSS3_logo.svg";
+import reactLogo from "/react.svg";
+import firebaseLogo from "/Firebase.png";
+import viteLogo from "/vite.svg";
+import SaasLogo from "/Sass_Logo.svg";
+import githubLogo from "/github.svg";
 
 const MySkill = () => {
   const skillData = [
     {
       id: "1",
       name: "HTML",
-      image: "/Html.svg",
+      image: `${htmlImage}`,
       animation: `${skillAnimation} infinite 3s linear`,
     },
     {
       id: "2",
       name: "CSS",
-      image: "/CSS3_logo.svg",
+      image: `${cssLogo}`,
       animation: `${skillAnimation} infinite 3s linear`,
     },
     {
       id: "3",
       name: "React",
-      image: "/react.svg",
+      image: `${reactLogo}`,
       animation: `${anotherAnimation} infinite 10s linear `,
     },
     {
       id: "4",
       name: "Firebase",
-      image: "/Firebase.png",
+      image: `${firebaseLogo}`,
       animation: `${skillAnimation} infinite 3s linear`,
     },
     {
       id: "5",
       name: "Vite",
-      image: "/vite.svg",
+      image: `${viteLogo}`,
       animation: `${skillAnimation} infinite 3s linear`,
     },
     {
       id: "6",
       name: "Saas",
-      image: "/Sass_Logo.svg",
+      image: `${SaasLogo}`,
       animation: `${skillAnimation} infinite 3s linear`,
     },
     {
       id: "7",
       name: "Github",
-      image: "/github.svg",
+      image: `${githubLogo}`,
       animation: `${skillAnimation} infinite 10s linear `,
     },
   ];

@@ -11,48 +11,13 @@ import {
 } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import Aos from "aos";
+import { projectData } from "./ProjectData";
+import externalLink from "/external-link.svg";
+import code from "/code.svg";
 
 const Projects = () => {
   const [itemShow, setItemShow] = useState(3);
-  const projectData = [
-    {
-      title: "Instgram Clone",
-      projectImage: "/instagram_clone.png",
-      demoLink: "https://social-app-opolis8.vercel.app",
-      codeLink: "https://github.com/opolis8/instagram-clone.git",
-    },
 
-    {
-      title: "E-commerce product page",
-      projectImage: "/ecommerce.png",
-      demoLink: "https://opolis8.github.io/ecommerce-product-page/",
-      codeLink: "https://github.com/opolis8/ecommerce-product-page.git",
-    },
-    {
-      title: "Advice generator app",
-      projectImage: "/advice_generator.jpg",
-      demoLink: "https://opolis8.github.io/advice-generator-app-main/",
-      codeLink: "https://github.com/opolis8/advice-generator-app-main.git",
-    },
-    {
-      title: "Interactive Card Detail",
-      projectImage: "/Interactive_Card.jpg",
-      demoLink: "https://opolis8.github.io/interactive-card-details-form/",
-      codeLink: "https://github.com/opolis8/interactive-card-details-form.git",
-    },
-    {
-      title: "Interactive Rating",
-      projectImage: "/interactive_rating.png",
-      demoLink: "https://opolis8.github.io/Interactive-rating/",
-      codeLink: "https://github.com/opolis8/Interactive-rating.git",
-    },
-    {
-      title: "news-letter-sign-up",
-      projectImage: "/news_letter_sign-up.png",
-      demoLink: "https://opolis8.github.io/news-letter-sign-up/",
-      codeLink: "https://github.com/opolis8/news-letter-sign-up.git",
-    },
-  ];
   useEffect(() => {
     Aos.init();
   }, []);
@@ -129,15 +94,12 @@ const Projects = () => {
                       >
                         <Button bgColor={"#B6C4B6"} variant="outline">
                           <Link href={project.demoLink} isExternal>
-                            <Image src="/external-link.svg" />
+                            <Image src={externalLink} />
                           </Link>
                         </Button>
                         <Button bgColor={"#B6C4B6"} variant="outline">
                           <Link href={project.codeLink} isExternal>
-                            <Image
-                              src="/code.svg
-                      "
-                            />
+                            <Image src={code} />
                           </Link>
                         </Button>
                       </Box>
