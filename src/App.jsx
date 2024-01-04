@@ -1,4 +1,3 @@
-import "./App.css";
 import HomePage from "./Pages/HomePage";
 import Navbar from "./components/Navbar/Navbar";
 import { Center, Flex, VStack } from "@chakra-ui/react";
@@ -21,7 +20,7 @@ function App() {
   return (
     <>
       {loading ? (
-        <Center width={"100%"} h={"100vh"}>
+        <Center width={"100%"} h={"100vh"} bg={"#1a202c"}>
           <FidgetSpinner />
         </Center>
       ) : (
