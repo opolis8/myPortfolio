@@ -78,7 +78,7 @@ const HomePage = () => {
               zIndex={1}
             />
           </Box>
-          <Tooltip label="Download CV" placement="bottom">
+          <Tooltip label="Download CV" placement="bottom" opacity={1}>
             <Button
               colorScheme="teal"
               variant="ghost"
