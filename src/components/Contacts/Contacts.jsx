@@ -1,4 +1,4 @@
-import { Box, Center, Flex, Image, Text } from "@chakra-ui/react";
+import { Box, Center, Flex, Image, Link, Text } from "@chakra-ui/react";
 
 import { MdOutlineMail } from "react-icons/md";
 import { IoCallOutline } from "react-icons/io5";
@@ -102,48 +102,60 @@ const Contacts = () => {
       >
         <Box>Social</Box>
         <Box display={"flex"} flexDir={"row"} gap={5}>
-          <Box
-            border={"none"}
-            transition={"transform .2s linear"}
-            _hover={{
-              cursor: "pointer",
-              transform: "scale(1.2)",
-              color: "#4267B2",
-            }}
+          <Link href="https://web.facebook.com/KimEdx/" isExternal>
+            <Box
+              border={"none"}
+              transition={"transform .2s linear"}
+              _hover={{
+                cursor: "pointer",
+                transform: "scale(1.2)",
+                color: "#4267B2",
+              }}
+            >
+              <FaSquareFacebook size={25} />
+            </Box>
+          </Link>
+
+          <Link href="https://github.com/opolis8" isExternal>
+            <Box
+              transition={"transform .2s linear"}
+              _hover={{
+                cursor: "pointer",
+                transform: "scale(1.2)",
+              }}
+            >
+              <FaGithub size={25} />
+            </Box>
+          </Link>
+          <Link href="https://www.instagram.com/keome94/" isExternal>
+            <Box
+              p={0}
+              m={0}
+              transition={"transform .2s linear"}
+              _hover={{
+                cursor: "pointer",
+                transform: "scale(1.2)",
+                color: "linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7)",
+              }}
+            >
+              <TiSocialInstagram size={25} />
+            </Box>
+          </Link>
+          <Link
+            href="https://www.linkedin.com/in/kim-edward-oclida-383859118/"
+            isExternal
           >
-            <FaSquareFacebook size={25} />
-          </Box>
-          <Box
-            transition={"transform .2s linear"}
-            _hover={{
-              cursor: "pointer",
-              transform: "scale(1.2)",
-            }}
-          >
-            <FaGithub size={25} />
-          </Box>
-          <Box
-            p={0}
-            m={0}
-            transition={"transform .2s linear"}
-            _hover={{
-              cursor: "pointer",
-              transform: "scale(1.2)",
-              color: "linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7)",
-            }}
-          >
-            <TiSocialInstagram size={25} />
-          </Box>
-          <Box
-            transition={"transform .2s linear"}
-            _hover={{
-              cursor: "pointer",
-              transform: "scale(1.2)",
-              color: "#0077b5",
-            }}
-          >
-            <FaLinkedinIn size={25} />
-          </Box>
+            <Box
+              transition={"transform .2s linear"}
+              _hover={{
+                cursor: "pointer",
+                transform: "scale(1.2)",
+                color: "#0077b5",
+              }}
+            >
+              <FaLinkedinIn size={25} />
+            </Box>
+          </Link>
         </Box>
       </Box>
     </Flex>
