@@ -43,7 +43,7 @@ const HomePage = () => {
               sequence={[
                 "Front-End",
                 500,
-                "Developer ", //  Continuing previous Text
+                "Front-End Developer ", //  Continuing previous Text
                 500,
                 "Front-End",
                 500,
