@@ -47,8 +47,6 @@ const HomePage = () => {
                 500,
                 "Front-End",
                 500,
-                "A WEB",
-                500,
                 "",
                 500,
               ]}
