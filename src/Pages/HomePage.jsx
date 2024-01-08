@@ -41,15 +41,13 @@ const HomePage = () => {
           <Text fontSize={"2rem"}>
             <TypeAnimation
               sequence={[
-                "A",
+                "Front-End",
                 500,
-                "A WEB ", //  Continuing previous Text
+                "Developer ", //  Continuing previous Text
                 500,
-                "A WEB Developer",
+                "Front-End",
                 500,
                 "A WEB",
-                500,
-                "A",
                 500,
                 "",
                 500,
