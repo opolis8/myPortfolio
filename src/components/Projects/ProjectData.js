@@ -66,7 +66,7 @@ export const projectData = [
     codeLink: "https://github.com/opolis8/faq-accordion-card-main",
   },
   {
-    title: "FAQ Card Accordion",
+    title: "Age Calculator",
     projectImage: `${ageCalculator}`,
     demoLink: "https://opolis8.github.io/age-calculator/",
     codeLink: "https://github.com/opolis8/age-calculator",
