@@ -7,6 +7,7 @@ import newsLetterPic from "/news_letter_sign-up.png";
 import tipCalulator from "/Tip-Calculator.png";
 import newsHomepage from "/News-Homepage.png";
 import faqCard from "/FAQ-Card.png";
+import ageCalculator from "/Age-Calculator.png";
 
 export const projectData = [
   {
@@ -63,5 +64,11 @@ export const projectData = [
     projectImage: `${faqCard}`,
     demoLink: "https://opolis8.github.io/faq-accordion-card-main/",
     codeLink: "https://github.com/opolis8/faq-accordion-card-main",
+  },
+  {
+    title: "FAQ Card Accordion",
+    projectImage: `${ageCalculator}`,
+    demoLink: "https://opolis8.github.io/age-calculator/",
+    codeLink: "https://github.com/opolis8/age-calculator",
   },
 ];
