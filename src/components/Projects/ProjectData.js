@@ -43,4 +43,10 @@ export const projectData = [
     demoLink: "https://opolis8.github.io/news-letter-sign-up/",
     codeLink: "https://github.com/opolis8/news-letter-sign-up.git",
   },
+  {
+    title: "Tip Calculator",
+    projectImage: `${newsLetterPic}`,
+    demoLink: "https://opolis8.github.io/tip-calculator-app-main/",
+    codeLink: "https://github.com/opolis8/tip-calculator-app-main",
+  },
 ];
