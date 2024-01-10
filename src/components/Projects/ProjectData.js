@@ -5,6 +5,7 @@ import interactiveCardPic from "/Interactive_Card.jpg";
 import interactiveRatingPic from "/interactive_rating.png";
 import newsLetterPic from "/news_letter_sign-up.png";
 import tipCalulator from "/Tip-Calculator.png";
+import newsHomepage from "/News-Homepage.png";
 
 export const projectData = [
   {
@@ -49,5 +50,11 @@ export const projectData = [
     projectImage: `${tipCalulator}`,
     demoLink: "https://opolis8.github.io/tip-calculator-app-main/",
     codeLink: "https://github.com/opolis8/tip-calculator-app-main",
+  },
+  {
+    title: "News Homepage Main",
+    projectImage: `${newsHomepage}`,
+    demoLink: "https://opolis8.github.io/news-homepage-main/",
+    codeLink: "https://github.com/opolis8/news-homepage-main",
   },
 ];
